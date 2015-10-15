@@ -1,8 +1,26 @@
 
 .puretext{
+	margin-top: 10px;
+	margin-bottom: 10px;
     text-align:center;
 }
 .guess{
     margin-right: auto;
   margin-left: auto;    
+}
+.button{
+	margin-right: 20px;
+	margin-left:20px;
+	text-align: center;
+}
+button #submit{
+	height: auto;
+}
+#da_answer{
+	display: none;
+}
+.table{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
