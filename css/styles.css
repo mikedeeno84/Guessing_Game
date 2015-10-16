@@ -1,16 +1,11 @@
 
-.puretext{
-	margin-top: 10px;
-	margin-bottom: 10px;
-    text-align:center;
+body{
+	background-color: black;
+	color:red;
+	text-align: center;
 }
-.guess{
-    margin-right: auto;
-  margin-left: auto;    
-}
+
 .button{
-	margin-right: 20px;
-	margin-left:20px;
 	text-align: center;
 }
 button #submit{
@@ -20,7 +15,41 @@ button #submit{
 	display: none;
 }
 .table{
-	text-align: center;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	width:600px;
+	margin-right: auto;
+	margin-left:auto;
+}
+.title{
+	font-family: "Courier New";
+	font-size:60px;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.table{
+	color:yellow;
+}
+#guess_info{
+	color:#BBBBBB;
+	font-size: 24px;
+}
+.controls{
+	width:120px;
+}
+#submit{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#victory{
+	display: none;
+	font-size: 60px;
+	margin-bottom: 10px;	
+}
+#update{
+	font-size: 24px;
+}
+.daform{
+	color: black;
 }
